@@ -1,1 +1,458 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* all-buutons  */
+button {
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    background-color: rgb(50, 120, 50);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgba(89, 162, 89, 0.919);
+}
+
+/* header-background-image and header styling */
+header {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.435), rgba(65, 135, 65, 0.57)), url("https://img.freepik.com/free-photo/cute-adorable-afro-american-student-girl-with-black-voluminous-hair-enjoying-leisure-time-after-college-lying-couch-stylish-ripped-jeans-blouse-sharing-thoughts-ideas-her-diary_343059-4731.jpg?t=st=1709108773~exp=1709112373~hmac=2d8711af55517a8fbb2e5b0d8c497a62640926a4af6632a9f89a7e99b162a4dc&w=826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    width: 98%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(47, 112, 47, 0.772);
+}
+
+/* header-nav-styling  */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30rem;
+}
+
+nav #btn,
+#btn2 {
+    display: none;
+}
+
+nav .logo-item {
+    display: flex;
+    justify-content: space-around;
+    width: 34rem;
+    margin: auto 0;
+}
+
+.logo-item div {
+    display: flex;
+}
+
+.logo-item img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+nav .logo-text {
+    font-weight: bold;
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.logo-text p {
+    color: white;
+}
+
+/* header-section-styling  */
+header section {
+    margin-top: 5.5rem;
+    padding: 15rem 0;
+}
+
+header section span {
+    color: white;
+}
+
+/* social-styling  */
+.social {
+    justify-content: space-around;
+}
+
+.social svg {
+    width: 1.2rem;
+    margin: 0 1rem;
+    margin-top: 0.4rem;
+}
+
+/* menu-styling  */
+.menu svg {
+    width: 0.8rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(102, 105, 93);
+}
+
+/* all-h1-elements-styling  */
+h1 {
+    display: flex;
+}
+
+h1 span {
+    color: rgba(65, 135, 65, 0.919);
+    margin: 0 0.5rem;
+}
+
+/* all-sections-styling  */
+section {
+    text-align: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: 70rem;
+}
+
+section h1 {
+    justify-content: center;
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+section p {
+    text-align: start;
+}
+
+/* education-section-styling  */
+.education {
+    display: flex;
+}
+
+.education img {
+    border: 1px solid transparent;
+    border-radius: 5rem;
+    height: 20rem;
+    width: 28rem;
+    margin: 0 1rem;
+}
+
+/* About-section-styling  */
+#About {
+    display: flex;
+}
+
+#About img {
+    border: 1px solid transparent;
+    border-radius: 3rem;
+    height: 30rem;
+    width: 30rem;
+    margin: 0 2rem;
+    object-fit: cover;
+}
+
+/* courses-section-card-styling  */
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    border: 5px solid rgba(65, 135, 65, 0.919);
+    border-radius: 1rem;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.card-item:hover {
+    box-shadow: 5px 5px 15px rgba(65, 135, 65, 0.919);
+}
+
+.card-item h2 {
+    margin: 1.2rem 0;
+}
+
+.card-item svg {
+    width: 3rem;
+}
+
+/* testimonials-section-card-styling  */
+#Testimonials h1 p {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+#Testimonials .card-item {
+    padding: 1rem;
+    background-color: white;
+}
+
+#Testimonials .card-relative {
+    position: relative;
+    height: 15rem;
+    width: 20rem;
+    padding-top: 3rem;
+}
+
+#Testimonials img {
+    border: 5px solid rgba(65, 135, 65, 0.919);
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(65, 135, 65, 0.919);
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 0;
+    left: 6.2rem;
+}
+
+#Testimonials h4 {
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+
+#Testimonials h5 {
+    color: orange;
+}
+
+#Testimonials p {
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+
+/* footer-styling  */
+footer {
+    background-color: rgba(65, 135, 65, 0.919);
+}
+
+.footer-item {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+} .footer-item h2 {
+    font-weight: bold;
+    color: white;
+}
+
+div ul li {
+    list-style-type: none;
+    margin: 1rem;
+    color: white;
+}
+
+form {
+    padding: 3rem 0;
+}
+
+form input {
+    outline: none;
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+/* all-rights-reserved-styling  */
+.main-footer {
+    background-color: rgba(65, 135, 65, 0.919);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+
+/* For Tablet, Ipad  */
+@media screen and (max-width: 992px) {
+
+    section {
+        max-width: 52rem;
+        padding: 1rem;
+    }
+
+    section h1 {
+        font-size: 1.9rem;
+    }
+
+    header {
+        height: 50vh;
+    }
+
+    header nav {
+        padding: 2rem;
+    }
+
+    .education img {
+        width: 23rem;
+    }
+
+    #About img {
+        margin: auto 0.8rem;
+    }
+
+    .card-item {
+        padding: 1rem;
+    }
+
+    #Testimonials img {
+        left: 5rem;
+    }
+
+    .footer-item button {
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 21rem;
+    }
+
+    .footer-item form {
+        padding: 1rem 0;
+        width: 20rem;
+    }
+}
+
+
+/* For mobile screen  */
+@media screen and (max-width: 768px) {
+
+    button {
+        width: 6rem;
+        height: 2.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    header nav {
+        width: 90%;
+        margin: 0;
+    }
+
+    section {
+        width: 22rem;
+    }
+
+    header section {
+        padding: 7rem 0;
+    }
+
+    header section h1 {
+    }
+
+    section h1 {
+        font-size: 1.2rem;
+    }
+
+    nav .menu {
+        border: 3px solid rgb(50, 120, 50);
+        border-radius: 0.5rem;
+        position: absolute;
+        display: flex;
+        right: 2rem;
+        background-color: rgba(50, 120, 50, 0.734);
+    }
+
+    nav .social {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        width: 10rem;
+    }
+
+    nav #btn {
+        display: block;
+        height: 2rem;
+        width: 3rem;
+    }
+
+    nav #btn2 {
+        height: 2rem;
+        width: 3rem;
+        display: none;
+    }
+
+    .education {
+        display: block;
+    }
+
+    .education img {
+        width: 20rem;
+        margin-top: 2rem;
+    }
+
+    #About {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #About img {
+        width: 20rem;
+        margin-top: 2rem;
+    }
+
+    img {
+        border: 1px solid;
+    }
+
+    .card {
+        display: block;
+    }
+
+    #Testimonials img {
+        left: 6.1rem;
+    }
+
+    #Testimonials .card-relative {
+        margin-top: 3rem;
+    }
+
+    .footer-item {
+        display: grid;
+        padding: 2rem 0;
+    }
+
+    .footer-item .form {
+        margin-top: 2rem;
+    }
+}
