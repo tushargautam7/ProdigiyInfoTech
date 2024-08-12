@@ -1,1 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( to top, rgba(110, 147, 202, 0.541), rgba(0, 128, 0, 0.555)), url(/druxamb-logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
+.container {
+    border: 3px solid rgba(24, 173, 24, 0.308);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 105px;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.form {
+    margin: auto;
+    padding: 0 2rem;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    background-color: #20864e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
